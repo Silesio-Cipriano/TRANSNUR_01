@@ -39,6 +39,7 @@
       rel="stylesheet"
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
@@ -210,14 +211,8 @@
     <main id="main">
       <!-- ======= Get Started Section ======= -->
       <section id="get-started" class="get-started section-bg">
-        <div class="container">
-          <div class="row justify-content-between gy-4">
-            <div class="d-flex align-items-center" data-aos="fade-up">
-              <div class="content align-items-center text-center">
-                <h2 style="color: black; margin-bottom: 2rem">
-                  Nossos clientes
-                </h2>
-                <div class="container text-center align-items-center">
+        
+                <!-- <div class="container text-center align-items-center">
                   <div id="logos_clients">
                     <img
                       style="max-width: 100px; max-height: 100px"
@@ -244,16 +239,35 @@
                       src="./assets/logo_clients/CMLogo.png"
                     />
                   </div>
-                </div>
-              </div>
-            </div>
+                </div> -->
+                          <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h2>Nossos clientes</h2>
+          <p>Empresas que confiaram nos nossos serviços</p>
+        </header>
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/logo_clients/CMLogo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_clients/CocaLogo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_clients/EEPLogo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_clients/INGCLogo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_clients/MatanuskaLogo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/logo_clients/OLAMLogo.png" class="img-fluid" alt=""></div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
+
+    </section><!-- End Clients Section -->
+
       </section>
       <!-- End Get Started Section -->
 
+
       <!-- ======= Get Started Section ======= -->
-      <section id="get-started" class="get-started section-bg">
+      <!-- <section id="get-started" class="get-started section-bg">
         <div class="container">
           <div class="row justify-content-between gy-4">
             <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
@@ -333,7 +347,7 @@
             <!-- End Quote Form -->
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Get Started Section -->
 
       <!-- ======= Constructions Section ======= -->
@@ -717,6 +731,100 @@
       </section>
       <!-- End Features Section -->
 
+      <!-- ======= Constructions Section ======= -->
+      <section id="constructions" class="constructions">
+        <div  class="container flex align-items-center" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Área de Actuação</h2>
+            <p>Cobertura nacional</p>
+          </div>
+         
+          <div id="coverage" class="d-flex align-items-center justify-content-center">
+            <img class="align-self-center" src="./assets/img/country.svg" alt="" srcset="" />
+          </div>
+            <!-- <img src="./assets/img/carousel/img6.jpeg" alt="" srcset="" /> -->
+          </div>
+        </div>
+      </section>
+  
+      <!-- End Constructions Section -->
+
+      
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+     
+        <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+      </section>
+      <!-- End Testimonials Section -->
+
       <!-- ======= Our Projects Section ======= -->
       <section id="projects" class="projects">
         <div class="container" data-aos="fade-up">
@@ -1095,173 +1203,6 @@
       </section>
       <!-- End Our Projects Section -->
 
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Testimonials</h2>
-            <p>
-              Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum
-              nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti
-            </p>
-          </div>
-
-          <div class="slides-2 swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img
-                      src="assets/img/testimonials/testimonials-1.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                      risus at semper.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img
-                      src="assets/img/testimonials/testimonials-2.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Export tempor illum tamen malis malis eram quae irure esse
-                      labore quem cillum quid cillum eram malis quorum velit
-                      fore eram velit sunt aliqua noster fugiat irure amet legam
-                      anim culpa.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img
-                      src="assets/img/testimonials/testimonials-3.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim
-                      sint quorum nulla quem veniam duis minim tempor labore
-                      quem eram duis noster aute amet eram fore quis sint minim.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img
-                      src="assets/img/testimonials/testimonials-4.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                      multos export minim fugiat minim velit minim dolor enim
-                      duis veniam ipsum anim magna sunt elit fore quem dolore
-                      labore illum veniam.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img
-                      src="assets/img/testimonials/testimonials-5.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Quis quorum aliqua sint quem legam fore sunt eram irure
-                      aliqua veniam tempor noster veniam enim culpa labore duis
-                      sunt culpa nulla illum cillum fugiat legam esse veniam
-                      culpa fore nisi cillum quid.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
     </main>
     <!-- End #main -->
 
