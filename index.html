@@ -82,15 +82,15 @@
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#" class="active" id="begin_opt">Inicio</a></li>
             <li><a href="#constructions">Sobre nós</a></li>
             <li><a href="#services">Serviços</a></li>
-            <li class="d-flex align-items-center gap-2">
-              <span id="flag" class="d-flex align-items-center">
+            <li id="langs" class="d-flex align-items-center gap-2">
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('pt')">
                 <img src="./assets/img/flags/ptFlag.png" alt="" srcset="" />
                 <!-- <h2>Pt</h2> -->
               </span>
-              <span id="flag" class="d-flex align-items-center">
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('En')">
                 <img src="./assets/img/flags/enFlag.png" alt="" srcset="" />
                 <!-- <h2>En</h2> -->
               </span>
@@ -120,7 +120,7 @@
                 id="btn-get-started"
                 data-aos="fade-up"
                 data-aos-delay="200"
-                href="#get-started"
+                href="#contact"
                 class="btn-get-started"
                 >Contacte-nos</a
               >
@@ -769,24 +769,24 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
                 </div>
                 <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
           </div>
 
@@ -1073,7 +1073,7 @@
                   <strong>Telefone:</strong> +258 874 490 000 / 869 016 468<br />
                   <strong>Email:</strong> Nuroessimela.pa@gmail.com<br />
                 </p>
-                <div class="social-links d-flex mt-3">
+                <!-- <div class="social-links d-flex mt-3">
                   <a
                     href="#"
                     class="d-flex align-items-center justify-content-center"
@@ -1094,7 +1094,7 @@
                     class="d-flex align-items-center justify-content-center"
                     ><i class="bi bi-linkedin"></i
                   ></a>
-                </div>
+                </div> -->
               </div>
             </div>
             <!-- End footer info column-->
@@ -1144,5 +1144,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/language.js"></script> -->
   </body>
 </html>
