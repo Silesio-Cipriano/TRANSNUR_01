@@ -60,7 +60,6 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
     <!-- =======================================================
@@ -83,19 +82,19 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li><a href="#" class="active" id="begin_opt">Inicio</a></li>
-            <li><a href="#constructions">Sobre nós</a></li>
-            <li><a href="#services">Serviços</a></li>
+            <li><a href="#constructions" id="about_2">Sobre nós</a></li>
+            <li><a href="#services" id="servicex">Serviços</a></li>
             <li id="langs" class="d-flex align-items-center gap-2">
               <span id="flag" class="d-flex align-items-center" onclick="updateContent('pt')">
                 <img src="./assets/img/flags/ptFlag.png" alt="" srcset="" />
                 <!-- <h2>Pt</h2> -->
               </span>
-              <span id="flag" class="d-flex align-items-center" onclick="updateContent('En')">
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('en')">
                 <img src="./assets/img/flags/enFlag.png" alt="" srcset="" />
                 <!-- <h2>En</h2> -->
               </span>
             </li>
-            <li><a href="#contact">Contacte-nos</a></li>
+            <li><a href="#contact" id="contact_opt_2">Contacte-nos</a></li>
           </ul>
         </nav>
         <!-- .navbar -->
@@ -109,15 +108,15 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2 data-aos="fade-down">
+              <h2 data-aos="fade-down" id="main_title">
                 Solução de <span>transporte</span> para o seu negócio
               </h2>
-              <p data-aos="fade-up">
+              <p data-aos="fade-up" id="down_left">
                 Nos especializamos em oferecer soluções de transporte eficientes
                 para cargas e mercadorias.
               </p>
               <a
-                id="btn-get-started"
+                id="contact_opt"
                 data-aos="fade-up"
                 data-aos-delay="200"
                 href="#contact"
@@ -208,8 +207,8 @@
     <section id="clients" class="clients">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h2>Nossos clientes</h2>
-          <p>Empresas que confiaram nos nossos serviços</p>
+          <h2 id="our_customers">Nossos clientes</h2>
+          <p id="trusted">Empresas que confiaram nos nossos serviços</p>
         </header>
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
@@ -318,8 +317,8 @@
       <section id="constructions" class="constructions">
         <div  class="container" data-aos="fade-up">
           <div  class="section-header">
-            <h2>Sobre nós</h2>
-            <p>
+            <h2 id="about_opt">Sobre nós</h2>
+            <p id="about_txt1">
               É uma empresa voltada a oferecer soluções de Transportes de cargas
               observando e analisando a particularidade e a necessidade de cada
               cliente, nossas actividades de transportes abrangem o modal
@@ -335,7 +334,7 @@
                 <div class="row">
                   <div class="d-flex align-items-center">
                     <div class="card-body">
-                      <p>
+                      <p id="about_txt2">
                         Somos uma empresa jovem especialistas em Transportes de
                         cargas, capacitação e dedicação aos segmentos, com
                         segurança, qualidade e a garantia de excelência dos
@@ -353,7 +352,7 @@
                 <div class="row">
                   <div class="d-flex align-items-center">
                     <div class="card-body">
-                      <p>
+                      <p id="about_txt3">
                         Possuímos um tipo de veículo que atenderá a sua operação
                         de forma ágil, com qualidade, e a flexibilidade que sua
                         operação necessita, sempre com a melhor relação custo x
@@ -374,8 +373,8 @@
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Nossa missão</h2>
-            <p>
+            <h2 id="our_mission_tt">Nossa missão</h2>
+            <p id="our_mission_txt">
               Estabelecer uma relação de parceria com nossos clientes,
               oferecendo serviços e soluções de alto valor agregado e voltados
               exclusivamente ao seu negócio e as suas necessidades.”
@@ -399,8 +398,8 @@
             <div
               class="col-lg-5 d-flex flex-column justify-content-center colorText"
             >
-              <h3>Serviços</h3>
-              <p>
+              <h3 id="services_2">Serviços</h3>
+              <p id="service_1_txt">
                 O seu negócio terá o parceiro certo para realizar as
                 transferências de matéria prima para a fabrica como também de
                 produtos acabados para o seu armazém.
@@ -416,11 +415,12 @@
                 <div>
                   <h4>
                     <a href="" class="stretched-link"
-                      >Parceiro confiável para transferências de
-                      matéria-prima</a
+                       id="trusted_partners"
+                        >Parceiro confiável para transferências de
+                        matéria-prima</a
                     >
                   </h4>
-                  <p>
+                  <p id="trusted_partners_txt">
                     Seu negócio terá um parceiro confiável para realizar as
                     transferências de matéria-prima para a fábrica.
                   </p>
@@ -437,10 +437,11 @@
                 <div>
                   <h4>
                     <a href="" class="stretched-link"
-                      >Concentração em outras áreas com tranquilidade</a
+                       id="concentration_tt"
+                      >foca-te no mais importante</a
                     >
                   </h4>
-                  <p>
+                  <p id="concentration_txt">
                     Ao ter a TRANSNUR com um parceiro para essas transferências,
                     seu negócio pode se concentrar em outras áreas e ter a
                     tranquilidade de que as transferências serão realizadas de
@@ -459,10 +460,11 @@
                 <div>
                   <h4>
                     <a href="" class="stretched-link"
+                       id="efficient_sol"
                       >Soluções eficientes e confiáveis</a
                     >
                   </h4>
-                  <p>
+                  <p id="efficient_sol_txt">
                     Esse parceiro oferecerá soluções eficientes e confiáveis
                     para as transferências de materiais.
                   </p>
@@ -485,27 +487,27 @@
                 data-bs-toggle="tab"
                 data-bs-target="#tab-1"
               >
-                <h4>Embalagem segura</h4>
+                <h4 id="points_tt_1">Embalagem segura</h4>
               </a>
             </li>
             <!-- End tab nav item -->
 
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                <h4>Envio em todo país</h4> </a
+                <h4 id="points_tt_2">Envio em todo país</h4> </a
               ><!-- End tab nav item -->
             </li>
 
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                <h4>Entrega dentro do prazo</h4>
+                <h4 id="points_tt_3">Entrega dentro do prazo</h4>
               </a>
             </li>
             <!-- End tab nav item -->
 
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                <h4>Envio mais rápido</h4>
+                <h4 id="points_tt_4">Envio mais rápido</h4>
               </a>
             </li>
             <!-- End tab nav item -->
@@ -519,8 +521,8 @@
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <h3>Porque escolher os nossos serviços?</h3>
-                  <p class="fst-italic">
+                  <h3 id="why_tt_3">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" id="points_txt_1">
                     É responsável por proteger o produto durante o transporte e
                     garantir que ele chegue ao destino em perfeitas condições.
                     <br />
@@ -529,15 +531,15 @@
                     seu desenvolvimento
                   </p>
                   <ul>
-                    <li>
+                    <li id="all_size">
                       <i class="bi bi-check2-all"></i> Atendemos a clientes de
                       diferentes tamanhos e setores.
                     </li>
-                    <li>
+                    <li id="we_guide">
                       <i class="bi bi-check2-all"></i> Acompanhamos o
                       desenvolvimento dos nossos clientes ao longo do tempo.
                     </li>
-                    <li>
+                    <li id="work_near">
                       <i class="bi bi-check2-all"></i>Trabalhamos de perto com
                       nossos clientes para garantir o sucesso de suas operações
                       de logística e transporte.
@@ -566,15 +568,15 @@
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <h3>Porque escolher os nossos serviços?</h3>
-                  <p class="fst-italic">
+                  <h3 id="why_tt">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" id="points_txt_2">
                     Nossa rede de transporte e logística abrange todo o
                     território nacional, permitindo que possamos oferecer
                     soluções de envio flexíveis e personalizadas de acordo com
                     as necessidades de cada cliente.
                   </p>
-                  <ul>
-                    <li>
+                  <ul id="why_txt_2">
+                    <li >
                       <i class="bi bi-check2-all"></i> Escolher os nossos
                       serviços da Transnur significa optar por uma empresa
                       experiente e comprometida com a satisfação de seus
@@ -609,14 +611,14 @@
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <h3>Porque escolher os nossos serviços?</h3>
-                  <p class="fst-italic">
+                  <h3 id="why_tt_1">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" points_txt_3id="">
                     Compreendemos a importância de garantir que suas mercadorias
                     cheguem ao destino em tempo hábil, e trabalhamos arduamente
                     para oferecer soluções de entrega pontual e confiável.
                   </p>
-                  <ul>
-                    <li>
+                  <ul id="items_why">
+                    <li >
                       <i class="bi bi-check2-all"></i>Entendemos a importância
                       de prazos de entrega rigorosos.
                     </li>
@@ -654,14 +656,14 @@
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <h3>Porque escolher os nossos serviços?</h3>
-                  <p class="fst-italic">
+                  <h3 id="why_tt_2">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" id="points_txt_4">
                     Na Transnur, entendemos que a rapidez é essencial em
                     qualquer processo de transporte e logística. Por isso,
                     oferecemos soluções de envio rápido e eficiente para atender
                     às necessidades de nossos clientes.
                   </p>
-                  <ul>
+                  <ul id="items_why_2">
                     <li>
                       <i class="bi bi-check2-all"></i> Valorizamos a eficiência
                       no transporte e logística.
@@ -700,8 +702,8 @@
       <section id="constructions" class="constructions">
         <div  class="container flex align-items-center" data-aos="fade-up">
           <div class="section-header">
-            <h2>Área de Actuação</h2>
-            <p>Cobertura nacional</p>
+            <h2 id="points_tt_5">Área de Actuação</h2>
+            <p id="points_txt_5">Cobertura nacional</p>
           </div>
          
           <div id="coverage" class="d-flex align-items-center justify-content-center">
@@ -724,9 +726,9 @@
         <div class="section-title">
           <div class="section-header">
 
-            <h2>Contacte-nos</h2>
+            <h2 id="contact_2">Contacte-nos</h2>
           </div>
-          <p>   Nós estamos sempre prontos para atender às suas necessidades e
+          <p id="ready_to">   Nós estamos sempre prontos para atender às suas necessidades e
             preocupações relacionadas aos nossos serviços, e esperamos
             poder ajudá-lo a encontrar a melhor solução para suas
             necessidades de logística e transporte. No entanto, para
@@ -743,7 +745,7 @@
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Endereço</h3>
+                  <h3 id="address">Endereço</h3>
                   <p>Rua Orlando Mendes, 148 Maputo, Moçambique</p>
                 </div>
               </div>
@@ -757,7 +759,7 @@
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
-                  <h3>Telefone</h3>
+                  <h3 id="phone">Telefone</h3>
                   <p>+258 846 565 101 / 842 731 823<br>+258 846 565 101 / 842 731 823</p>
                 </div>
               </div>
@@ -766,7 +768,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
@@ -779,14 +781,14 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                <textarea class="form-control" name="message" rows="5" id="message" placeholder="Mensagem" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
+              <div class="text-center"><button id="send_email"  onclick="sendEmail()">Enviar</button></div>
             </form>
           </div>
 
@@ -804,7 +806,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Fotos</h2>
+          <h2 id="photo">Fotos</h2>
         </div>
 
       
@@ -1066,7 +1068,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
                 <h3>TRANSNUR</h3>
-                <p>
+                <p id="contacts">
                   Rua Orlando Mendes,<br />
                   148 Maputo, Moçambique<br /><br />
                   <strong>Telefone:</strong> +258 846 565 101 / 842 731 823<br />
@@ -1102,9 +1104,9 @@
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Links</h4>
               <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#" id="begin_1">Inicio</a></li>
+                <li><a href="#" id="about_3">Sobre nós</a></li>
+                <li><a href="#" id="services_opt">Serviços</a></li>
               </ul>
             </div>
             <!-- End footer links column-->
@@ -1140,10 +1142,8 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <!-- <script src="assets/js/language.js"></script> -->
+     <script src="assets/js/language.js"></script>
+    <script src="assets/js/emailSender.js"></script>
   </body>
 </html>
