@@ -137,7 +137,7 @@ var contentx = {
         "            necessidades de logística e transporte. No entanto, para\n" +
         "            garantir que possamos atendê-lo da melhor maneira possível,\n" +
         "            pedimos que mantenha o contato restrito a questões relevantes\n" +
-        "            ao nosso negócio.",
+        "            ao nosso negócio. ",
     trusted_partners_txt : "                    Seu negócio terá um parceiro confiável para realizar as\n" +
         "                    transferências de matéria-prima para a fábrica.",
     phone : "Telefone",
