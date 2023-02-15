@@ -47,7 +47,7 @@ var contentx = {
     all_size : "<i class=\"bi bi-check2-all\"></i> We serve clients of different sizes and sectors.",
     efficient_sol_txt : "This partner will offer efficient and reliable solutions for material transfers.",
     efficient_sol : "Efficient and reliable solutions",
-    concentration_tt :  "focus on the most important",
+    concentration_tt :  "Focus on the most important",
     concentration_txt : "By having TRANSNUR as a partner for these transfers, your business can focus on other areas " +
         "and have the peace of mind that transfers will be carried out safely and efficiently...",
     our_solution_txt:
@@ -186,7 +186,7 @@ var contentx = {
     efficient_sol_txt : "Esse parceiro oferecerá soluções eficientes e confiáveis\n" +
         "                    para as transferências de materiais.",
     efficient_sol : "Soluções eficientes e confiáveis",
-    concentration_tt : "foca-te no mais importante",
+    concentration_tt : "Foca-te no mais importante",
     concentration_txt : "                    Ao ter a TRANSNUR com um parceiro para essas transferências,\n" +
         "                    seu negócio pode se concentrar em outras áreas e ter a\n" +
         "                    tranquilidade de que as transferências serão realizadas de\n" +
