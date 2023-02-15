@@ -2263,7 +2263,9 @@ section {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  font-weight: bold;
+
+  color: black;
   transition: 0.4s;
   width: 100%;
   border-radius: 5px;
@@ -2271,6 +2273,10 @@ section {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+
+  &:hover {
+    opacity: 0.50;
+  }
 }
 
 .contact .php-email-form button[type=submit]:hover {
