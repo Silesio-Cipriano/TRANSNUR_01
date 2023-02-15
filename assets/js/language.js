@@ -131,6 +131,13 @@ var contentx = {
     trusted :"Empresas que confiaram nos nossos serviços",
     trusted_partners : "Parceiro confiável para transferências de\n" +
         "                        matéria-prima",
+    ready_to : "Nós estamos sempre prontos para atender às suas necessidades e\n" +
+        "            preocupações relacionadas aos nossos serviços, e esperamos\n" +
+        "            poder ajudá-lo a encontrar a melhor solução para suas\n" +
+        "            necessidades de logística e transporte. No entanto, para\n" +
+        "            garantir que possamos atendê-lo da melhor maneira possível,\n" +
+        "            pedimos que mantenha o contato restrito a questões relevantes\n" +
+        "            ao nosso negócio.",
     trusted_partners_txt : "                    Seu negócio terá um parceiro confiável para realizar as\n" +
         "                    transferências de matéria-prima para a fábrica.",
     phone : "Telefone",
