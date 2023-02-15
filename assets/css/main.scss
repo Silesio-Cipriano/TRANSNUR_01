@@ -246,6 +246,7 @@ h6 {
 .clients .clients-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
+
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
@@ -253,11 +254,11 @@ h6 {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid var(--color-primary);
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: var(--color-primary);
 }
 
 
@@ -2256,6 +2257,20 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 5px;
+}
+
+#send_email {
+  background: var(--color-primary);
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
