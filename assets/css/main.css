@@ -257,7 +257,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 32px;
+  font-size: 1.7rem;
   font-weight: 700;
   position: relative;
   color: #2e3135;
@@ -826,42 +826,42 @@ section {
   }
 }
 /*--------------------------------------------------------------
-# Constructions Section
+# Transports Section
 --------------------------------------------------------------*/
-.constructions {
+.transports {
   color: white;
 }
-.constructions h2 {
+.transports h2 {
   color: white;
 }
 
-.constructions .card-item {
+.transports .card-item {
   border: 1px solid rgba(82, 86, 94, 0.2);
   background: #fff;
   position: relative;
   border-radius: 0;
 }
 
-.constructions .card-item .card-bg {
+.transports .card-item .card-bg {
   min-height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.constructions .card-item .card-body {
+.transports .card-item .card-body {
   padding: 30px;
   color: #0F1829;
 }
 
-.constructions .card-item h4 {
+.transports .card-item h4 {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
   color: #0F1829;
 }
 
-.constructions .card-item p {
+.transports .card-item p {
   color: #0F1829;
   margin: 0;
 }
@@ -2270,7 +2270,7 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 4rem;
   font-weight: 700;
   position: relative;
 }
@@ -2288,16 +2288,33 @@ section {
   margin: auto;
 }
 
+@media (max-width: 1280px) {
+  .hero .info h2 {
+    font-size: 3rem;
+  }
+}
 @media (max-width: 768px) {
   .hero .info h2 {
-    font-size: 36px;
+    font-size: 2rem;
   }
 }
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 1rem;
 }
 
+@media (max-width: 374px) {
+  .hero .info h2 {
+    margin-top: 6rem;
+    font-size: 1.5rem;
+  }
+  .hero .info p {
+    font-size: 0.8rem;
+  }
+  #contact_opt {
+    font-size: 0.6rem;
+  }
+}
 .hero .info .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
