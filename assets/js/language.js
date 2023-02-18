@@ -6,110 +6,96 @@ var contentx = {
     contact_opt: 'Contact Us',
     main_title: '<span>Transport</span> solution for your business',
     down_left:
-      'We specialize in offering efficient transport solutions for cargo and goods.',
+      'We specialise in providing efficient transport solutions for cargo and goods.',
     our_customers: 'Our Customers',
     trusted  : "Companies that have trusted our services",
     trusted_partners : "Reliable partner for raw material transfers",
     trusted_partners_txt : "Your business will have a reliable partner to transfer raw materials to the factory.",
     phone : "Phone",
     address : "Address",
-    ready_to: "We are always ready to meet your needs and\n" +
-        "            concerns regarding our services, and we hope\n" +
-        "            We can help you find the best solution for your\n" +
-        "            logistics and transportation needs. However, for\n" +
-        "            ensure that we can serve you in the best possible way,\n" +
-        "            please keep contact restricted to relevant issues\n" +
-        "            to our business.",
+    ready_to: "We are always ready to address your needs and concerns regarding our services, " +
+            "and look forward to helping you find the best solution for your logistics and transport " +
+            "needs. However, to ensure that we can serve you in the best possible way, please keep contact " +
+            "restricted to issues relevant to our business.",
     items_why_2 : "<li>\n" +
-        "                      <i class=\"bi bi-check2-all\"></i> We value efficiency\n" +
-        "                      in transport and logistics.\n" +
+        "                      <i class=\"bi bi-check2-all\"></i> We value efficiency in transport and logistics." +
         "                    </li>\n" +
         "                    <li>\n" +
-        "                      <i class=\"bi bi-check2-all\"></i> We offer solutions for\n" +
-        "                      fast shipping to meet the needs of our\n" +
-        "                      customers.\n" +
+        "                      <i class=\"bi bi-check2-all\"></i> We offer fast shipping solutions to meet our customers' needs." +
         "                    </li>\n" +
         "                    <li>\n" +
-        "                      <i class=\"bi bi-check2-all\"></i>We monitor the progress of\n" +
-        "                      shipping to ensure on-time delivery.\n" +
+        "                      <i class=\"bi bi-check2-all\"></i> We monitor the progress of the shipment to ensure timely delivery." +
         "                    </li>",
     items_why : "<li>\n" +
         "                      <i class=\"bi bi-check2-all\"></i>We understand the importance of strict delivery times.\n" +
         "                    </li>\n" +
         "                    <li>\n" +
-        "                      <i class=\"bi bi-check2-all\"></i> We make constant efforts to ensure timely delivery of goods.\n" +
+        "                      <i class=\"bi bi-check2-all\"></i> We make constant efforts to ensure the timely delivery of goods.\n" +
         "                    </li>\n" +
         "                    <li>\n" +
         "                      <i class=\"bi bi-check2-all\"></i>We work closely with our customers to meet their delivery requirements.\n" +
         "                    </li>",
-    work_near : "<i class=\"bi bi-check2-all\"></i>We work closely with our customers to ensure the success of their logistics and transportation operations.",
-    we_guide : "<i class=\"bi bi-check2-all\"></i> We follow the development of our customers over time.",
+    work_near : "<i class=\"bi bi-check2-all\"></i>We work closely with our customers to ensure the success of their logistics and transport operations.",
+    we_guide : "<i class=\"bi bi-check2-all\"></i>We follow the development of our clients over time.",
     all_size : "<i class=\"bi bi-check2-all\"></i> We serve clients of different sizes and sectors.",
     efficient_sol_txt : "This partner will offer efficient and reliable solutions for material transfers.",
     efficient_sol : "Efficient and reliable solutions",
     concentration_tt :  "Focus on the most important",
-    concentration_txt : "By having TRANSNUR as a partner for these transfers, your business can focus on other areas " +
-        "and have the peace of mind that transfers will be carried out safely and efficiently...",
+    concentration_txt : "By having Transnur, Lda as a partner for these transfers, your business can concentrate on " +
+        "other areas and have the peace of mind that the transfers will be carried out safely and efficiently?",
     our_solution_txt:
-      'We offer Cargo and Goods Transport solutions observing and analyzing the particularity and ' +
-      'needs of each client, as we know that each client/business is unique and deserves exclusive dedication.',
+      'We offer Cargo and Goods Transport solutions, observing and analysing the particularities and needs of each ' +
+        'client, as we know that each client/company is unique and deserves exclusive dedication.',
     about_txt1:
-      'It is a company dedicated to offering cargo transport solutions, observing and analyzing the parti' +
-      'cularity and needs of each client, our transport activities cover the road modal, acting in dedicated oper' +
-      'ations, distribution, spot loads, express loads throughout the national territory, in addition to of custo' +
-      'mized solutions guaranteeing your total satisfaction.',
+      'It is a company dedicated to offering cargo transport solutions, observing and analysing the particularities ' +
+        'and needs of each client. Our transport activities cover the road modal, acting in dedicated operations, distribution, ' +
+        'punctual loads, express loads throughout the national territory, as well as personalised solutions that guarantee your total satisfaction.',
     about_txt2:
-      'We are a young company specializing in cargo transport, training and dedication to the segments,' +
-      ' with safety, quality and the guarantee of excellence in the services provided.',
+      'We are a young company specialized in cargo transport, training and dedication to the segments, with safety, quality and the guarantee of ' +
+        'excellence in the services provided.',
     about_txt3:
-      'We have a type of vehicle that will serve your operation in an agile way, with quality, and the ' +
-      'flexibility that your operation needs, always with the best cost-benefit ratio in the market.',
-    our_mission_tt: 'Our mission',
+      'We have a type of vehicle that will serve your operation in an agile way, with quality, and the flexibility that your operation needs, always with ' +
+        'the best cost-benefit ratio in the market.',
+    our_mission_tt: 'Our mission statement',
     our_mission_txt:
-      'Establish a partnership relationship with our customers, offering services and solutions wi' +
-      'th high added value and exclusively focused on their business and needs.”',
-   /*mudar*/ service_1: 'Transfer transport',
+      'ETo establish a partnership relationship with our customers, offering high added value services and solutions exclusively focused on their business and needs."',
+   /*mudar*/ service_1: 'Transfer Carriage',
     service_1_txt:
-      'Your business will have the right partner to transfer raw materials to the factory as well as' +
-      ' finished products to your warehouse.',
-    why_tt: 'Why choose our services?',
-    why_st: 'Our differential',
+      'Your business will have the right partner to transfer raw materials to the factory, as well as finished products to your warehouse.',
+    why_tt: 'Why should you choose our services?',
+    why_st: 'What makes us different',
     why_txt_1:
       'We support clients of all sizes at every stage of their development',
-    why_txt_2: "<li ><i class=\"bi bi-check2-all\"></i> Choosing our Transnur services means choosing an experienced company committed to the satisfaction of its customers.\n" +
-        "                      customers.\n" +
+    why_txt_2: "<li ><i class=\"bi bi-check2-all\"></i> Choosing Transnur, Lda services means choosing an experienced company committed to customer satisfaction.\n" +
         "                    </li>\n" +
         "                    <li>\n" +
-        "                      <i class=\"bi bi-check2-all\"></i> By choosing Transnur, you have peace of mind knowing that your goods will be in good hands.\n" +
+        "                      <i class=\"bi bi-check2-all\"></i> By choosing Transnur, Lda, you have peace of mind knowing that your assets will be in good hands.\n" +
         "                    </li>",
-    contacts : "Rua Orlando Mendes,<br />\n" +
+    contacts :     "Rua Orlando Mendes,<br />\n" +
         "                  148 Maputo, Mozambique<br /><br />\n" +
-        "                  <strong>Phone:</strong> +258 846 565 101 / 842 731 823<br />\n" +
         "                  <strong>Phone:</strong> +258 874 490 000 / 869 016 468<br />\n" +
-        "                  <strong>Email:</strong> Nuroessimela.pa@gmail.com<br />",
+        "                  <strong>Phone:</strong> +258 842 731 823<br />\n" +
+        "                  <strong>Email:</strong> info@transnur.co.mz<br />",
     why_txt_3:
       'Count on us to be your strategic transportation partner, we will certainly contribute to the success of y' +
       'our business.',
     points_tt_1: 'safe packing',
-    points_txt_1: "You are responsible for protecting the product during transport and ensuring that it arrives at its destination in perfect condition.\n" +
+    points_txt_1: "It is responsible for protecting the product during transport and ensuring that it arrives at its destination in perfect condition.\n" +
         "                    <br />\n" +
         "                    <br />\n" +
         "We support clients of all sizes at all stages of their development.",
     points_tt_2: 'Shipping all over the country',
     points_txt_2:
-      'Our transport and logistics network covers the entire national territory, allowing us to offer flexibl' +
-      'e and personalized shipping solutions according to the needs of each client.',
+      "Our transport and logistics network covers the entire national territory, allowing us to offer flexible and personalised transport solutions according to each client's needs.",
     points_tt_3: 'Delivery on time',
     points_txt_3:
-      'We understand the importance of ensuring your goods arrive at their destination in a timely manner, an' +
-      'd we work hard to provide timely and reliable delivery solutions.',
+      'We understand the importance of ensuring your goods arrive at their destination on time, and we work hard to provide timely and reliable delivery solutions.',
     points_tt_4: 'Fastest shipping',
     points_txt_4:
-      "At Transnur, we understand that speed is essential in any transport and logistics process. That's why " +
-      "we offer fast and efficient shipping solutions to meet our customers' needs.",
-    points_tt_5: 'Area of Activity',
+      "Na Transnur, Lda, compreendemos que a rapidez é essencial em qualquer processo de transporte e logística. É por isso que oferecemos soluções de transporte rápidas e eficientes para satisfazer as necessidades dos nossos clientes.",
+    points_tt_5: 'Area of activity',
     points_txt_5: 'National coverage',
-    footer_txt_1: 'We are available to help your business succeed!',
+    footer_txt_1: 'We are here to help your business succeed!',
     contact_btn: 'Contact Us',
     send_email: 'Send',
     cancel_btn: 'Cancel',
@@ -187,7 +173,7 @@ var contentx = {
         "                    para as transferências de materiais.",
     efficient_sol : "Soluções eficientes e confiáveis",
     concentration_tt : "Foca-te no mais importante",
-    concentration_txt : "                    Ao ter a TRANSNUR com um parceiro para essas transferências,\n" +
+    concentration_txt : "                    Ao ter a Transnur, Lda com um parceiro para essas transferências,\n" +
         "                    seu negócio pode se concentrar em outras áreas e ter a\n" +
         "                    tranquilidade de que as transferências serão realizadas de\n" +
         "                    forma segura e eficiente...",
@@ -223,9 +209,10 @@ var contentx = {
       '              produtos acabados para o seu armazém.',
     contacts : "Rua Orlando Mendes,<br />\n" +
         "                  148 Maputo, Moçambique<br /><br />\n" +
-        "                  <strong>Telefone:</strong> +258 846 565 101 / 842 731 823<br />\n" +
         "                  <strong>Telefone:</strong> +258 874 490 000 / 869 016 468<br />\n" +
-        "                  <strong>Email:</strong> Nuroessimela.pa@gmail.com<br />\n",
+        "                  <strong>Telefone:</strong> +258 842 731 823<br />\n" +
+        "                  <strong>Email:</strong>nfo@transnur.co.mz<br />\n",
+
     why_tt: 'Porque escolher os nossos serviços?',
     why_st: 'O nosso diferencial',
     why_txt_1:
@@ -233,12 +220,12 @@ var contentx = {
       '                desenvolvimento',
     why_txt_2: "<li >\n" +
         "                      <i class=\"bi bi-check2-all\"></i> Escolher os nossos\n" +
-        "serviços da Transnur significa optar por uma empresa\n" +
+        "serviços da Transnur, lda significa optar por uma empresa\n" +
         "experiente e comprometida com a satisfação de seus\n" +
         "clientes.\n" +
         "                    </li>\n" +
         "                    <li>\n" +
-        "                      <i class=\"bi bi-check2-all\"></i> Ao escolher a Transnur,\n" +
+        "                      <i class=\"bi bi-check2-all\"></i> Ao escolher a Transnur, lda,\n" +
         "você tem a tranquilidade de saber que suas mercadorias\n" +
         "estarão em boas mãos.\n" +
         "                    </li>",
@@ -265,7 +252,7 @@ var contentx = {
       '                  para oferecer soluções de entrega pontual e confiável.',
     points_tt_4: 'Envio mais rápido',
     points_txt_4:
-      '                  Na Transnur, entendemos que a rapidez é essencial em qualquer\n' +
+      '                  Na Transnur, lda, entendemos que a rapidez é essencial em qualquer\n' +
       '                  processo de transporte e logística. Por isso, oferecemos\n' +
       '                  soluções de envio rápido e eficiente para atender às\n' +
       '                  necessidades de nossos clientes.',
