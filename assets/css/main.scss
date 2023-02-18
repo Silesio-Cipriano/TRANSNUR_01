@@ -39,6 +39,14 @@ a {
   text-decoration: none;
 }
 
+#cocaLogo {
+  width: 400px;
+
+  .img-fluid {
+    width: 100%;
+    object-fit: contain;
+  }
+}
 
 /*--------------------------------------------------------------
 # Contact

@@ -35,6 +35,15 @@ a {
   text-decoration: none;
 }
 
+#cocaLogo {
+  width: 400px;
+}
+#cocaLogo .img-fluid {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
