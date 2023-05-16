@@ -1,0 +1,84 @@
+$bgColor: #0F1829;
+$primary: #feb900;
+$text: #fff;
+$secondary: #52565e;
+
+.alt-services {
+  h3,
+  a,
+  .colorText p {
+    color: $text;
+  }
+
+  .img-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: $primary;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  .icon-box {
+    margin-top: 50px;
+
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $primary;
+      margin-right: 25px;
+      font-size: 28px;
+      width: 56px;
+      height: 56px;
+      border-radius: 4px;
+      line-height: 0;
+      box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+      background-color: $text;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: $primary;
+        color: $text;
+      }
+    }
+
+    h4 {
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 18px;
+
+      a {
+        color: $text;
+        transition: 0.3s;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+
+    p {
+      line-height: 24px;
+      font-size: 14px;
+      color: $text;
+      margin-bottom: 0;
+    }
+  }
+}

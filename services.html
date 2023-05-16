@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>TRANSNUR.LDA</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/services.css" rel="stylesheet" />
+
+    <!-- =======================================================
+
+  ======================================================== -->
+  </head>
+
+  <body class="space-y">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/LogoTRANSNUR0.png" alt="" />
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="/index.html" id="begin_opt">Inicio</a></li>
+            <li><a href="/about.html"  id="about_2">Sobre nós</a></li>
+            <li><a href="/services.html"  class="active" id="servicex">Serviços</a></li>
+            <li id="langs" class="d-flex align-items-center gap-2">
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('pt')">
+                <img src="./assets/img/flags/ptFlag.png" alt="" srcset="" />
+                <!-- <h2>Pt</h2> -->
+              </span>
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('en')">
+                <img src="./assets/img/flags/enFlag.png" alt="" srcset="" />
+                <!-- <h2>En</h2> -->
+              </span>
+            </li>
+            <li><a href="/contact.html"  id="contact_opt_2">Contacte-nos</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+
+      <!-- ======= Alt Services Section ======= -->
+      <section id="alt-services" class="alt-services  space-y">
+        <div  class="container" data-aos="fade-up">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-6 img-bg"
+              style="background-image: url(assets/img/carousel/img6.jpeg)"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            ></div>
+
+            <div
+              class="col-lg-5 d-flex flex-column justify-content-center colorText"
+            >
+              <h3 id="services_2">Serviços</h3>
+              <p id="service_1_txt">
+                O seu negócio terá o parceiro certo para realizar as
+                transferências de matéria prima para a fabrica como também de
+                produtos acabados para o seu armazém.
+              </p>
+
+              <div
+              
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <i class="bi bi-easel flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                       id="trusted_partners"
+                        >Parceiro confiável para transferências de
+                        matéria-prima</a
+                    >
+                  </h4>
+                  <p id="trusted_partners_txt">
+                    Seu negócio terá um parceiro confiável para realizar as
+                    transferências de matéria-prima para a fábrica.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                       id="concentration_tt"
+                      >Foca-te no mais importante</a
+                    >
+                  </h4>
+                  <p id="concentration_txt">
+                    Ao ter a TRANSNUR,LDA com um parceiro para essas transferências,
+                    seu negócio pode se concentrar em outras áreas e ter a
+                    tranquilidade de que as transferências serão realizadas de
+                    forma segura e eficiente..
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div
+                class="icon-box d-flex position-relative"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4>
+                    <a href="" class="stretched-link"
+                       id="efficient_sol"
+                      >Soluções eficientes e confiáveis</a
+                    >
+                  </h4>
+                  <p id="efficient_sol_txt">
+                    Esse parceiro oferecerá soluções eficientes e confiáveis
+                    para as transferências de materiais.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Alt Services Section -->
+
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features section-bg">
+        <div class="container" data-aos="fade-up">
+          <ul class="nav nav-tabs row g-2 d-flex">
+            <li class="nav-item col-3">
+              <a
+                class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#tab-1"
+              >
+                <h4 id="points_tt_1">Embalagem segura</h4>
+              </a>
+            </li>
+            <!-- End tab nav item -->
+
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                <h4 id="points_tt_2">Envio em todo país</h4> </a
+              ><!-- End tab nav item -->
+            </li>
+
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                <h4 id="points_tt_3">Entrega dentro do prazo</h4>
+              </a>
+            </li>
+            <!-- End tab nav item -->
+
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                <h4 id="points_tt_4">Envio mais rápido</h4>
+              </a>
+            </li>
+            <!-- End tab nav item -->
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tab-1">
+              <div class="row">
+                <div
+                  class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <h3 id="why_tt_3">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" id="points_txt_1">
+                    É responsável por proteger o produto durante o transporte e
+                    garantir que ele chegue ao destino em perfeitas condições.
+                    <br />
+                    <br />
+                    Apoiamos clientes de todas as dimensões em todas as fases do
+                    seu desenvolvimento
+                  </p>
+                  <ul>
+                    <li id="all_size">
+                      <i class="bi bi-check2-all"></i> Atendemos a clientes de
+                      diferentes tamanhos e setores.
+                    </li>
+                    <li id="we_guide">
+                      <i class="bi bi-check2-all"></i> Acompanhamos o
+                      desenvolvimento dos nossos clientes ao longo do tempo.
+                    </li>
+                    <li id="work_near">
+                      <i class="bi bi-check2-all"></i>Trabalhamos de perto com
+                      nossos clientes para garantir o sucesso de suas operações
+                      de logística e transporte.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 text-center"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/img/carousel/img13.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End tab content item -->
+
+            <div class="tab-pane" id="tab-2">
+              <div class="row">
+                <div
+                  class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <h3 id="why_tt">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" id="points_txt_2">
+                    Nossa rede de transporte e logística abrange todo o
+                    território nacional, permitindo que possamos oferecer
+                    soluções de envio flexíveis e personalizadas de acordo com
+                    as necessidades de cada cliente.
+                  </p>
+                  <ul id="why_txt_2">
+                    <li >
+                      <i class="bi bi-check2-all"></i> Escolher os nossos
+                      serviços da Transnur,Lda significa optar por uma empresa
+                      experiente e comprometida com a satisfação de seus
+                      clientes.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Ao escolher a Transnur,Lda
+                      você tem a tranquilidade de saber que suas mercadorias
+                      estarão em boas mãos.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 text-center"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/img/carousel/img9.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End tab content item -->
+
+            <div class="tab-pane" id="tab-3">
+              <div class="row">
+                <div
+                  class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <h3 id="why_tt_1">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" points_txt_3id="">
+                    Compreendemos a importância de garantir que suas mercadorias
+                    cheguem ao destino em tempo hábil, e trabalhamos arduamente
+                    para oferecer soluções de entrega pontual e confiável.
+                  </p>
+                  <ul id="items_why">
+                    <li >
+                      <i class="bi bi-check2-all"></i>Entendemos a importância
+                      de prazos de entrega rigorosos.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Fazemos esforços
+                      constantes para garantir a entrega pontual das
+                      mercadorias.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>Trabalhamos em estreita
+                      colaboração com nossos clientes para atender aos seus
+                      requisitos de entrega.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 text-center"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/img/carousel/img12.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End tab content item -->
+
+            <div class="tab-pane" id="tab-4">
+              <div class="row">
+                <div
+                  class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <h3 id="why_tt_2">Porque escolher os nossos serviços?</h3>
+                  <p class="fst-italic" id="points_txt_4">
+                    Na Transnur,Lda entendemos que a rapidez é essencial em
+                    qualquer processo de transporte e logística. Por isso,
+                    oferecemos soluções de envio rápido e eficiente para atender
+                    às necessidades de nossos clientes.
+                  </p>
+                  <ul id="items_why_2">
+                    <li>
+                      <i class="bi bi-check2-all"></i> Valorizamos a eficiência
+                      no transporte e logística.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Oferecemos soluções de
+                      envio rápido para atender às necessidades de nossos
+                      clientes.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>Monitoramos o progresso do
+                      envio para garantir a entrega no prazo estabelecido.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 text-center"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/img/carousel/img11.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End tab content item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Features Section -->
+
+      <!-- ======= Transports Section ======= -->
+   
+  
+
+
+      <!-- End Our Projects Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-content position-relative">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info">
+                <h3>TRANSNUR,LDA</h3>
+                <p id="contacts">
+                  Rua das rosas, Sommerschield II,<br />
+                  Maputo, Moçambique<br /><br />
+                  <strong>Telefone:</strong> +258 874 490 000 / 869 016 468<br />
+                  <strong>Telefone:</strong> +258 842 731 823<br />
+                  <strong>Email:</strong> info@transnur.co.mz<br />
+                </p>
+              </div>
+            </div>
+            <!-- End footer info column-->
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Links</h4>
+              <ul>
+                <li><a href="#begin_opt" id="begin_1">Inicio</a></li>
+                <li><a href="#transports" id="about_3">Sobre nós</a></li>
+                <li><a href="#alt-services" id="services_opt">Serviços</a></li>
+              </ul>
+            </div>
+            <!-- End footer links column-->
+
+            <!-- End footer links column-->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal text-center position-relative">
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>TRANSNUR,LDA</span></strong
+            >. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/emailSender.js"></script>
+  </body>
+</html>
