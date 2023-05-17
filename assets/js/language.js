@@ -1,3 +1,5 @@
+window.onload = loadPreferencesIfExistsElseDefault;
+
 var contentx = {
   en: {
     begin_opt: 'Home',
@@ -74,7 +76,7 @@ var contentx = {
       'the best cost-benefit ratio in the market.',
     our_mission_tt: 'Our mission statement',
     our_mission_txt:
-      'ETo establish a partnership relationship with our customers, offering high added value services and solutions exclusively focused on their business and needs."',
+      'Establish a partnership relationship with our customers, offering high added value services and solutions exclusively focused on their business and needs."',
     /*mudar*/ service_1: 'Transfer Carriage',
     service_1_txt:
       'Your business will have the right partner to transfer raw materials to the factory, as well as finished products to your warehouse.',
@@ -385,4 +387,19 @@ function updateContent(language) {
         element.src = contentx[language][elementId];
     }
   });
+
+  saveLanguagePreference(language)
 }
+
+function saveLanguagePreference(language){
+  localStorage.setItem('language', language);
+}
+
+function loadPreferencesIfExistsElseDefault(){
+  const language = localStorage.getItem('language');
+  if(language)
+    updateContent(language)
+  else
+    updateContent('pt')
+}
+
