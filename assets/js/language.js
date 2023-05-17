@@ -1,9 +1,14 @@
 var contentx = {
   en: {
     begin_opt: 'Home',
+    begin_1 : 'Home',
     about_opt: 'About Us',
+    about_2: 'About Us',
+    about_3: 'About Us',
     services_opt: 'Services',
+    servicex: 'Services',
     contact_opt: 'Contact Us',
+    contact_opt_2 : 'Contact Us',
     main_title: '<span>Transport</span> solution for your business',
     down_left:
       'We specialise in providing efficient transport solutions for cargo and goods.',
@@ -118,9 +123,14 @@ var contentx = {
   },
   pt: {
     begin_opt: 'Início',
+    begin_1 : 'Início',
     about_opt: 'Sobre nós',
+    about_2 : 'Sobre nós',
+    about_3 : 'Sobre nós',
     services_opt: 'Serviços',
+    servicex : 'Serviços',
     contact_opt: 'Contacte-nos',
+    contact_opt_2 : 'Contacte-nos',
     main_title: 'Solução de <span>transporte</span> para o seu negócio',
     down_left:
       'Nos especializamos em oferecer soluções de transporte eficientes\n' +
@@ -294,106 +304,77 @@ var contentx = {
     photo: 'Galeria',
   },
 };
-
 function updateContent(language) {
-  document.getElementById('begin_opt').innerHTML = contentx[language].begin_opt;
-  document.getElementById('about_opt').innerHTML = contentx[language].about_opt;
-  // document.getElementById('services_opt').innerHTML =
-  contentx[language].services_opt;
-  document.getElementById('contact_opt').innerHTML =
-    contentx[language].contact_opt;
-  document.getElementById('main_title').innerHTML =
-    contentx[language].main_title;
-  document.getElementById('down_left').innerHTML = contentx[language].down_left;
-  document.getElementById('our_customers').innerHTML =
-    contentx[language].our_customers;
-  // document.getElementById('our_solution_txt').innerHTML =
-  //   contentx[language].our_solution_txt;
-  document.getElementById('about_txt1').innerHTML =
-    contentx[language].about_txt1;
-  document.getElementById('about_txt2').innerHTML =
-    contentx[language].about_txt2;
-  document.getElementById('about_txt3').innerHTML =
-    contentx[language].about_txt3;
-  document.getElementById('our_mission_tt').innerHTML =
-    contentx[language].our_mission_tt;
-  document.getElementById('our_mission_txt').innerHTML =
-    contentx[language].our_mission_txt;
-  // document.getElementById('service_1').innerHTML = contentx[language].service_1;
-  document.getElementById('service_1_txt').innerHTML =
-    contentx[language].service_1_txt;
-  document.getElementById('why_tt').innerHTML = contentx[language].why_tt;
-  // document.getElementById('why_st').innerHTML = contentx[language].why_st;
-  // document.getElementById('why_txt_1').innerHTML = contentx[language].why_txt_1;
-  document.getElementById('why_txt_2').innerHTML = contentx[language].why_txt_2;
-  // document.getElementById('why_txt_3').innerHTML = contentx[language].why_txt_3;
-  document.getElementById('points_tt_1').innerHTML =
-    contentx[language].points_tt_1;
-  document.getElementById('points_txt_1').innerHTML =
-    contentx[language].points_txt_1;
-  document.getElementById('points_tt_2').innerHTML =
-    contentx[language].points_tt_2;
-  document.getElementById('points_txt_2').innerHTML =
-    contentx[language].points_txt_2;
-  document.getElementById('points_tt_3').innerHTML =
-    contentx[language].points_tt_3;
-  document.getElementById('contacts').innerHTML = contentx[language].contacts;
-  document.getElementById('points_tt_4').innerHTML =
-    contentx[language].points_tt_4;
-  document.getElementById('points_txt_4').innerHTML =
-    contentx[language].points_txt_4;
-  document.getElementById('points_tt_5').innerHTML =
-    contentx[language].points_tt_5;
-  document.getElementById('points_txt_5').innerHTML =
-    contentx[language].points_txt_5;
-  document.getElementById('contact_2').innerHTML =
-    contentx[language].contact_opt;
-  document.getElementById('photo').innerHTML = contentx[language].photo;
-  document.getElementById('send_email').innerHTML =
-    contentx[language].send_email;
-  // document.getElementById('cancel_btn').innerHTML =
-  //   contentx[language].cancel_btn;
-  document.getElementById('subject').placeholder = contentx[language].subject;
-  document.getElementById('name').placeholder = contentx[language].name;
-  document.getElementById('message').placeholder = contentx[language].message;
-  document.getElementById('begin_1').innerHTML = contentx[language].begin_opt;
-  document.getElementById('services_2').innerHTML =
-    contentx[language].services_opt;
-  document.getElementById('about_2').innerHTML = contentx[language].about_opt;
-  document.getElementById('about_3').innerHTML = contentx[language].about_opt;
-  document.getElementById('trusted_partners').innerHTML =
-    contentx[language].trusted_partners;
-  document.getElementById('concentration_tt').innerHTML =
-    contentx[language].concentration_tt;
-  document.getElementById('concentration_txt').innerHTML =
-    contentx[language].concentration_txt;
-  document.getElementById('efficient_sol_txt').innerHTML =
-    contentx[language].efficient_sol_txt;
-  document.getElementById('efficient_sol').innerHTML =
-    contentx[language].efficient_sol;
-  document.getElementById('all_size').innerHTML = contentx[language].all_size;
-  document.getElementById('we_guide').innerHTML = contentx[language].we_guide;
-  document.getElementById('work_near').innerHTML = contentx[language].work_near;
-  document.getElementById('items_why').innerHTML = contentx[language].items_why;
-  document.getElementById('items_why_2').innerHTML =
-    contentx[language].items_why_2;
-  document.getElementById('ready_to').innerHTML = contentx[language].ready_to;
-  document.getElementById('phone').innerHTML = contentx[language].phone;
-  document.getElementById('address').innerHTML = contentx[language].address;
-  document.getElementById('trusted_partners_txt').innerHTML =
-    contentx[language].trusted_partners_txt;
-  document.getElementById('trusted_partners').innerHTML =
-    contentx[language].trusted_partners;
-  document.getElementById('services_opt').innerHTML =
-    contentx[language].services_opt;
-  document.getElementById('contact_opt_2').innerHTML =
-    contentx[language].contact_opt;
-  document.getElementById('services_opt').innerHTML =
-    contentx[language].services_opt;
-  document.getElementById('servicex').innerHTML =
-    contentx[language].services_opt;
-  document.getElementById('trusted').innerHTML = contentx[language].trusted;
-  document.getElementById('why_tt_1').innerHTML = contentx[language].why_tt;
-  document.getElementById('why_tt_2').innerHTML = contentx[language].why_tt;
-  document.getElementById('why_tt_3').innerHTML = contentx[language].why_tt;
+  const elementIds = [
+    'begin_opt',
+    'about_opt',
+    'services_opt',
+    'contact_opt',
+    'main_title',
+    'down_left',
+    'our_customers',
+    'about_txt1',
+    'about_txt2',
+    'about_txt3',
+    'our_mission_tt',
+    'our_mission_txt',
+    'service_1',
+    'service_1_txt',
+    'why_tt',
+    'why_st',
+    'why_txt_1',
+    'why_txt_2',
+    'why_txt_3',
+    'points_tt_1',
+    'points_txt_1',
+    'points_tt_2',
+    'points_txt_2',
+    'points_tt_3',
+    'contacts',
+    'points_tt_4',
+    'points_txt_4',
+    'points_tt_5',
+    'points_txt_5',
+    'contact_2',
+    'photo',
+    'send_email',
+    'cancel_btn',
+    'subject',
+    'name',
+    'message',
+    'begin_1',
+    'services_2',
+    'about_2',
+    'about_3',
+    'trusted_partners',
+    'concentration_tt',
+    'concentration_txt',
+    'efficient_sol_txt',
+    'efficient_sol',
+    'all_size',
+    'we_guide',
+    'work_near',
+    'items_why',
+    'items_why_2',
+    'ready_to',
+    'phone',
+    'address',
+    'trusted_partners_txt',
+    'trusted_partners',
+    'services_opt',
+    'contact_opt_2',
+    'services_opt',
+    'servicex',
+    'trusted',
+    'why_tt_1',
+    'why_tt_2',
+    'why_tt_3'
+  ];
+
+  elementIds.forEach(elementId => {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.innerHTML = contentx[language][elementId];
+    }
+  });
 }
