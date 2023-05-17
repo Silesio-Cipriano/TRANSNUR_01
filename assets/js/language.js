@@ -6,9 +6,11 @@ var contentx = {
     about_2: 'About Us',
     about_3: 'About Us',
     services_opt: 'Services',
+    services_2 : 'Services',
     servicex: 'Services',
     contact_opt: 'Contact Us',
     contact_opt_2 : 'Contact Us',
+    contact_2  : 'Contact Us',
     main_title: '<span>Transport</span> solution for your business',
     down_left:
       'We specialise in providing efficient transport solutions for cargo and goods.',
@@ -77,6 +79,9 @@ var contentx = {
     service_1_txt:
       'Your business will have the right partner to transfer raw materials to the factory, as well as finished products to your warehouse.',
     why_tt: 'Why should you choose our services?',
+    why_tt_1 : 'Why should you choose our services?',
+    why_tt_2 : 'Why should you choose our services?',
+    why_tt_3 : 'Why should you choose our services?',
     why_st: 'What makes us different',
     why_txt_1:
       'We support clients of all sizes at every stage of their development',
@@ -128,9 +133,11 @@ var contentx = {
     about_2 : 'Sobre nós',
     about_3 : 'Sobre nós',
     services_opt: 'Serviços',
+    services_2: 'Serviços',
     servicex : 'Serviços',
     contact_opt: 'Contacte-nos',
     contact_opt_2 : 'Contacte-nos',
+    contact_2 : 'Contacte-nos',
     main_title: 'Solução de <span>transporte</span> para o seu negócio',
     down_left:
       'Nos especializamos em oferecer soluções de transporte eficientes\n' +
@@ -248,6 +255,9 @@ var contentx = {
       '                  <strong>Email:</strong>nfo@transnur.co.mz<br />\n',
 
     why_tt: 'Porque escolher os nossos serviços?',
+    why_tt_1 : 'Porque escolher os nossos serviços?',
+    why_tt_2 : 'Porque escolher os nossos serviços?',
+    why_tt_3 : 'Porque escolher os nossos serviços?',
     why_st: 'O nosso diferencial',
     why_txt_1:
       '                Apoiamos clientes de todas as dimensões em todas as fases do seu\n' +
@@ -361,9 +371,7 @@ function updateContent(language) {
     'address',
     'trusted_partners_txt',
     'trusted_partners',
-    'services_opt',
     'contact_opt_2',
-    'services_opt',
     'servicex',
     'trusted',
     'why_tt_1',
