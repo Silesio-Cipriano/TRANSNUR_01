@@ -125,6 +125,7 @@ var contentx = {
     name: 'Name',
     message: 'Type a message',
     photo: 'Galery',
+    mapp : "./assets/img/countryEn.svg"
   },
   pt: {
     begin_opt: 'Início',
@@ -160,14 +161,6 @@ var contentx = {
       '                    transferências de matéria-prima para a fábrica.',
     phone: 'Telefone',
     address: 'Endereço',
-    ready_to:
-      'We are always ready to meet your needs and\n' +
-      '            concerns regarding our services, and we hope\n' +
-      '            We can help you find the best solution for your\n' +
-      '            logistics and transportation needs. However, for\n' +
-      '            ensure that we can serve you in the best possible way,\n' +
-      '            please keep contact restricted to relevant issues\n' +
-      '            to our business.',
     items_why_2:
       '<li>\n' +
       '                      <i class="bi bi-check2-all"></i> Valorizamos a eficiência\n' +
@@ -312,6 +305,7 @@ var contentx = {
     name: 'Nome',
     message: 'Digite uma mensagem',
     photo: 'Galeria',
+    mapp : "./assets/img/countryPt.svg"
   },
 };
 function updateContent(language) {
@@ -376,13 +370,19 @@ function updateContent(language) {
     'trusted',
     'why_tt_1',
     'why_tt_2',
-    'why_tt_3'
+    'why_tt_3',
+    'mapp'
   ];
 
   elementIds.forEach(elementId => {
     const element = document.getElementById(elementId);
     if (element) {
-      element.innerHTML = contentx[language][elementId];
+      if(element.tagName !== 'INPUT' && element.tagName !== 'IMG')
+        element.innerHTML = contentx[language][elementId];
+      else if(element.tagName === 'INPUT')
+        element.placeholder = contentx[language][elementId];
+      else if(element.tagName === 'IMG')
+        element.src = contentx[language][elementId];
     }
   });
 }
