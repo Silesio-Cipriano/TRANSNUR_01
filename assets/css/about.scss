@@ -3,6 +3,12 @@ $primary: #feb900;
 $text: #fff;
 $secondary: #52565e;
 
+.header {
+  a{
+    font-weight:bold;
+  }
+}
+
 .transports, .services {
   color: $text;
 
