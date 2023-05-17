@@ -61,6 +61,7 @@ a#contact_opt {
 # Contact
 --------------------------------------------------------------*/
 #logos_clients {
+  background-color: #0F1829;
   display: flex;
   width: 100%;
   gap: 4rem;
@@ -114,17 +115,16 @@ h6 {
 section#clients {
   padding: 80px 0;
   margin-top: 0;
-  background: white;
 }
-section#clients h2, section#clients p {
-  color: #0F1829;
+section#clients clients h2, section#clients p {
+  color: #fff;
 }
 section#clients p {
   font-size: 20px;
   margin-top: 20px;
 }
 section#clients .section-header {
-  background-color: white;
+  background-color: #0F1829;
 }
 
 .clients .clients-slider .swiper-slide img {
