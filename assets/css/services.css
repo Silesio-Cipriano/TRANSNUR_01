@@ -1,3 +1,7 @@
+.header a {
+  font-weight: bold;
+}
+
 .alt-services h3,
 .alt-services a,
 .alt-services .colorText p {

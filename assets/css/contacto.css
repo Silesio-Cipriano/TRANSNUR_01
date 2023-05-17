@@ -1,3 +1,7 @@
+.header a {
+  font-weight: bold;
+}
+
 .contact .row.aos-init.aos-animate {
   display: flex;
   align-items: center;
