@@ -81,9 +81,10 @@ a#contact_opt {
 }
 
 #navbar li a {
-  color: #fff;
+  color: #0F1829;
   text-align: center;
   display: flex;
+  font-weight: bold;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -115,16 +116,28 @@ h6 {
 section#clients {
   padding: 80px 0;
   margin-top: 0;
+  background-color: #fff;
 }
-section#clients clients h2, section#clients p {
-  color: #fff;
+section#clients h2, section#clients p {
+  color: #0F1829;
 }
 section#clients p {
   font-size: 20px;
   margin-top: 20px;
 }
 section#clients .section-header {
-  background-color: #0F1829;
+  background-color: #fff;
+}
+
+.clientsImgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 70px;
+}
+.clientsImgs div img {
+  max-height: 100px;
 }
 
 .clients .clients-slider .swiper-slide img {
@@ -161,11 +174,11 @@ section#clients .section-header {
 # Sections & Section Header
 --------------------------------------------------------------*/
 header {
-  background: #0F1829;
+  background: #fff;
 }
 
 header a {
-  color: #fff;
+  color: #0F1829;
 }
 
 section {
@@ -356,15 +369,15 @@ section {
 .header {
   z-index: 997;
   position: absolute;
-  padding: 30px 0;
+  padding: 20px 0;
   top: 0;
   left: 0;
   right: 0;
 }
 
 .header .logo img {
-  max-height: 200px;
-  margin-top: -20px;
+  max-height: 60px;
+  margin-top: -10px;
   margin-right: 6px;
 }
 
@@ -583,7 +596,7 @@ section {
   }
   .mobile-nav-show {
     position: relative;
-    color: #fff;
+    color: #0F1829;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -1693,6 +1706,7 @@ section {
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 3rem;
+  margin-top: 8rem;
   font-weight: 700;
   position: relative;
 }

@@ -100,9 +100,10 @@ font-weight: bold;
 }
 
 #navbar li a {
-  color: $text;
+  color: $bgColor;
   text-align: center;
   display: flex;
+  font-weight: bold;
   align-items: center;
   justify-content: center;
   gap:10px;
@@ -139,10 +140,10 @@ h6 {
 section#clients {
   padding: 80px 0;
   margin-top: 0;
-  clients
 
+  background-color: $text;
   h2,p{
-    color: $text;
+    color: $bgColor;
   }
 
   p{
@@ -152,8 +153,23 @@ section#clients {
 
 
   .section-header{
-    background-color: $bgColor;
+    background-color: $text;
   }
+}
+
+.clientsImgs {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  justify-items: center;
+  gap:70px;
+
+  div{
+    img{
+      max-height: 100px;
+    }
+  }
+  
 }
 
 .clients .clients-slider .swiper-slide img {
@@ -192,11 +208,11 @@ section#clients {
 # Sections & Section Header
 --------------------------------------------------------------*/
 header {
-  background: $bgColor;
+  background: $text;
 }
 
 header a {
-  color: $text;
+  color: $bgColor;
 }
 
 section {
@@ -404,15 +420,15 @@ section {
 .header {
   z-index: 997;
   position: absolute;
-  padding: 30px 0;
+  padding: 20px 0;
   top: 0;
   left: 0;
   right: 0;
 }
 
 .header .logo img {
-  max-height: 200px;
-  margin-top:-20px;
+  max-height: 60px;
+  margin-top:-10px;
   margin-right: 6px;
 }
 
@@ -674,7 +690,7 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: $text;
+    color: $bgColor;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -1833,6 +1849,7 @@ section {
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 3rem;
+  margin-top:8rem;
   font-weight: 700;
   position: relative;
 }
