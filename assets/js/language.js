@@ -13,9 +13,9 @@ var contentx = {
     contact_opt: 'Contact Us',
     contact_opt_2 : 'Contact Us',
     contact_2  : 'Contact Us',
-    main_title: '<span>Transport</span> solution for your business',
+    main_title: 'We make a <span id>Difference</span>',
     down_left:
-      'We specialise in providing efficient transport solutions for cargo and goods.',
+      'We transport large quantities of products or materials, but optimizing logistics.',
     our_customers: 'Our Customers',
     trusted: 'Companies that have trusted our services',
     trusted_partners: 'Reliable partner for raw material transfers',
@@ -141,10 +141,9 @@ var contentx = {
     contact_opt: 'Contacte-nos',
     contact_opt_2 : 'Contacte-nos',
     contact_2 : 'Contacte-nos',
-    main_title: 'Solução de <span>transporte</span> para o seu negócio',
+    main_title: 'We make a <span id>Difference</span>',
     down_left:
-      'Nos especializamos em oferecer soluções de transporte eficientes\n' +
-      '            para cargas e mercadorias.',
+      'Transportamos grandes quantidades de produtos ou materiais, porém optimizando a logística.',
     our_customers: 'Nossos Clientes',
     trusted: 'Empresas que confiaram nos nossos serviços',
     trusted_partners:
