@@ -131,7 +131,7 @@ var contentx = {
     servicex : 'Serviços',
     contact_opt: 'Contacte-nos',
     contact_opt_2 : 'Contacte-nos',
-    main_title: 'Solução de <span>transporte</span> para o seu negócio',
+    main_title: 'Tenha os melhores <span>Momentos</span> para si.',
     down_left:
       'Nos especializamos em oferecer soluções de transporte eficientes\n' +
       '            para cargas e mercadorias.',
