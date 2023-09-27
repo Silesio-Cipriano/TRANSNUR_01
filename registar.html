@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>TRANSNUR.LDA</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/personalizado.estilo.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/contacto.css" rel="stylesheet" />
+
+    <!-- =======================================================
+
+  ======================================================== -->
+  </head>
+
+  <body class="bg-color">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="./index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/LogoTRANSNUR0.png" alt="" />
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="./index.html" id="begin_opt">Inicio</a></li>
+            <li><a href="./about.html" id="about_2">Sobre nós</a></li>
+            <li><a href="./services.html" id="servicex">Serviços</a></li>
+            <li id="langs" class="d-flex align-items-center gap-2">
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('pt')">
+                <img src="./assets/img/flags/ptFlag.png" alt="" srcset="" />
+                <!-- <h2>Pt</h2> -->
+              </span>
+              <span id="flag" class="d-flex align-items-center" onclick="updateContent('en')">
+                <img src="./assets/img/flags/enFlag.png" alt="" srcset="" />
+                <!-- <h2>En</h2> -->
+              </span>
+            </li>
+            <li><a href="./evento.html"   class="active" id="contact_opt_2">Agendar evento</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    
+      <!-- End Transports Section -->
+     
+      <!-- ======= Testimonials Section ======= -->
+      <section class="">
+     
+        <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+     
+
+        <div class="row login" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5 ">
+            <img src="./assets/img/agenda/img4.jpg" alt="">
+            <img src="./assets/img/agenda/img2.jpg" alt="">
+          </div>
+
+
+          <div class="col-lg-5 ">
+            <form method="post" role="form" class="php-email-form">
+              <h2>Criar uma conta</h2>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Email  " required>
+              </div>
+              <div class="row">
+              
+                <div class="col form-group">
+                  <input type="number" class="form-control" name="email" id="email" placeholder="Nome" required>
+                </div>
+                <div class="col form-group">
+                  <input type="number" class="form-control" name="email" id="email" placeholder="Numero de telefone" required>
+                </div>
+              
+              </div>
+           
+             
+              <div class="row">
+              
+                <div class="col form-group dateEvent">
+                  <label>Data de nascimento</label>
+                  <input type="date" class="form-control" name="email" id="email" placeholder="Data de inicio" required>
+                </div>
+                <div class="col form-group">
+                  <select id="" name="Tipo do evento">
+                    <option value="none">Genero</option>
+                    <option value="">Masculino</option>
+                    <option value="">Feminio</option>
+                  </select>            
+                  </div>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit" id="send_email"  onclick="sendEmail()">Criar uma conta conta</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+      </section>
+      <!-- End Testimonials Section -->
+
+
+      
+
+      <!-- End Our Projects Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+ 
+
+
+    <div id="preloader"></div>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/emailSender.js"></script>
+  </body>
+</html>

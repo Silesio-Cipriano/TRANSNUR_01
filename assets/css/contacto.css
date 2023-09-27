@@ -6,6 +6,16 @@
   background: #060107;
 }
 
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  justify-content: center;
+}
+.login img {
+  width: 100%;
+}
+
 .contact .section-title img {
   width: 100%;
   height: 20%;
@@ -189,11 +199,14 @@
   border: 1.3px solid #0f1829;
   border-radius: 4px;
 }
+.contact .php-email-form .row {
+  align-items: end;
+}
 .contact .php-email-form select {
   border: 1.3px solid #0f1829;
   border-radius: 4px;
   width: 100%;
-  height: 100%;
+  height: 44px;
   padding-left: 10px;
   background: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
